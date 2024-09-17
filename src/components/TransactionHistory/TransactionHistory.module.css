@@ -1,4 +1,4 @@
-.transactions-table {
+.transactionsTable {
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
@@ -6,17 +6,17 @@
   text-transform: capitalize;
 }
 
-.transaction-first-line {
+.transactionFirstLine {
   background-color: rgb(46, 46, 49);
   color: white;
 }
 
-.transactions-table th,
-.transactions-table td {
+.transactionsTable th,
+.transactionsTable td {
   padding: 5px;
   border: 1px solid black;
 }
 
-.transactions-table tr:nth-child(even) {
+.transactionsTable tr:nth-child(even) {
   background-color: #bcc8cf;
 }

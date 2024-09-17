@@ -1,8 +1,10 @@
+import css from "./FriendListItem.module.css";
+
 export default function FriendListItem({ avatar, name, isOnline }) {
   return (
     <>
-      <img className="friend-img" src={avatar} alt={name} width={48} />
-      <p className="friend-name">{name}</p>
+      <img className={css.friendImg} src={avatar} alt={name} width={48} />
+      <p className={css.friendName}>{name}</p>
       {isOnline ? (
         <p style={{ color: "green" }}>Online</p>
       ) : (
