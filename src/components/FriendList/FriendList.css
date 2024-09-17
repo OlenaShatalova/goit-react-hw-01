@@ -1,0 +1,24 @@
+.friend-list {
+  display: flex;
+  gap: 20px;
+  line-height: 1.4;
+}
+
+.friend-item {
+  width: calc((100% - 80px) / 5);
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.friend-img {
+  margin-bottom: 10px;
+}
+
+.friend-name {
+  font-size: 22px;
+  font-weight: 500;
+}

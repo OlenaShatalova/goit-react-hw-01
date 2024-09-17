@@ -1,0 +1,22 @@
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.transaction-first-line {
+  background-color: rgb(46, 46, 49);
+  color: white;
+}
+
+.transactions-table th,
+.transactions-table td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.transactions-table tr:nth-child(even) {
+  background-color: #bcc8cf;
+}
